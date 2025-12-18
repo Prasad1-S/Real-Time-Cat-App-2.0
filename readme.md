@@ -8,7 +8,6 @@ Users can send messages and see updates instantly without page reloads. Built wh
 - Multiple users can join the same room and chat in real time
 - Multiple rooms can exist simultaneously without interference
 - Rooms are automatically destroyed once all users leave (ensuring clean resource management)
-- 
 ---
 
 ## 🚀 Installation
@@ -32,4 +31,5 @@ Open in browser:
 ```bash
 http://localhost:3000
 ```
+
 
