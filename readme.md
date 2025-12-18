@@ -17,7 +17,7 @@ Users can send messages and see updates instantly without page reloads. Built wh
 npm init -y
 ```
 
-###2. Install required packages
+### 2. Install required packages
 ```bash
 npm i express socket.io
 ```
@@ -31,5 +31,6 @@ Open in browser:
 ```bash
 http://localhost:3000
 ```
+
 
 
