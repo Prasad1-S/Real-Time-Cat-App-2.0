@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Room Selector</title>
+<link rel="stylesheet" href="css/entry.css">
+</head>
+
+<body>
+<div class="Selector">
+<div class="container">
+    <h2>Welcome To CAT-Room</h2>
+    <button onclick="openCreate()">Create Room</button>
+    <button onclick="openJoin()">Join Room</button>
+</div>
+
+<!-- CREATE ROOM MODAL -->
+<div class="modal" id="createModal">
+    <div class="modal-content">
+        <h3>Your Room ID</h3>
+
+        <!-- backend will inject roomId later -->
+        <input type="text" id="roomIdDisplay" value="ABC123" readonly>
+        <button class="copy-btn" onclick="copyRoomId()">Copy</button>
+
+            <input type="hidden" name="action" value="create">
+            <button onclick="enterRoom()">Enter Room</button> 
+    </div>
+</div>
+
+
+<!-- JOIN ROOM MODAL -->
+<div class="modal" id="joinModal">
+    <div class="modal-content">
+        <h3>Enter Room ID</h3>
+            <input type="hidden" name="action" value="join">
+            <input type="text" id="joinRoomInput" name="roomId" required>
+            <br>
+            <button onclick="joinRoom()">Join</button>
+    </div>
+</div>
+
+
+    <!-- background animation -->
+<div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+</div >
+
+
+
+<script src="js/entry.js"></script>
+</body>
+</html>
