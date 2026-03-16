@@ -1,3 +1,6 @@
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-blue?style=for-the-badge)](https://real-time-cat-app-2-0.onrender.com)
+> Note: the site is hosted on a free tier it might take upto 10-15 seconds to load (build & load).
+
 # 🐱 Real-Time Cat App 2.0
 
 A modern, real-time chat application with a playful cat theme, built with Node.js, Express, and Socket.IO. Create private chat rooms, connect with friends, and enjoy a smooth messaging experience.
